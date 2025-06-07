@@ -25,7 +25,6 @@ header{
     width: 99%;
     height: 60vh;
     margin-top: 85px;
-    background-color: chocolate;
 }
 .img1{
     width: 8%;
@@ -106,11 +105,11 @@ main{
     height: 55vh;
     margin-left: 10px;
     border-radius: 10px;
-    /* box-shadow: rgb(53, 43, 43) 1px 3px 2px 4px;    */
     animation-iteration-count: 3;
     animation-duration: 2s;
     background-color: white;
-}   
+} 
+
 #div2{
     display: inline-flex;
     display: block;
@@ -819,9 +818,9 @@ main{
     width: 35%;
     height: 62vh;
     border-radius: 20px;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: -20px;
-    background-color: greenyellow;
+    background-color: chartreuse;
 }
 #rasm5{
     width: 25%;
@@ -829,7 +828,13 @@ main{
     margin-left: 30px;
     margin-top: 10px;
 }
+#rasm31{
+    position: absolute;
+    border-radius: 20px;
+    width: 30%;
+    height: 62vh;
 
+}
 .suz1{
     position: absolute;
     margin-left: 30px;
@@ -1575,5 +1580,55 @@ footer{
     margin-left: 50px;
     margin-top: 320px;
 }
+
+@media (max-width: 576px) {
+.img1{
+    width: 15%;
+    height: 5vh;  
+    margin-top: 30px;
+    margin-left: -3px;
+}
+.a1{
+   font-size: 10px;
+   margin-left: 15px;
+   margin-top: 30px;
+}
+.a2{
+   position: absolute;
+   font-size: 10px;
+   margin-left: 145px;
+   margin-top: 30px;
+}
+.a3{
+    position: absolute;
+    font-size: 10px;
+    margin-left: 225px;
+    margin-top: 30px;
+}
+.suz_tanlash{
+    font-size: 10px;
+    margin-top: 30px;
+    margin-left: 185px;
+}
+#iconka1{
+    font-size: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.a4{
+    font-size: 10px;
+    margin-top: 30px;
+}
+.img2 {
+    width: 90%;
+    height: 40vh;
+    margin: 20px auto 0 auto;
+    display: block;
+}
+
+}
+
+
+
 
 
