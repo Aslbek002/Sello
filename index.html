@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://th.bing.com/th/id/R.0c7e204a154399366b225f2973e77246?rik=6jeSlKvR5hCJ5g&pid=ImgRaw&r=0">
     <link rel="stylesheet" href="css/stayl.css">
+    <link rel="stylesheet" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAM1BMVEVHcEwAsqkAsqkAsqkAsqkAsqkAsqkAsqkAsqkAsqkAsqkAsqkAsqkAsqkAsqkAsqkAsqnYacYnAAAAEXRSTlMAGy1de5mIaUIMUabg//DOvZnQBmIAAADESURBVHgBjZIFtgMhDAAXojj3v2y9eZv0S+c5A0SPr0gZkIhYNJegSm19PJmrSXYO5zgxtyTnPF1N1j4CO9lDim5We5jX6y+swOseoR2Gvn7lxzd68/lTLsjPn+A4SyuBa2xB2sPoi2pyln2qG9zTNTxUwseOdrYFl++u+KyAVv/xaSr317miDW5lk9z0dUtblNpHp/r8CKaXqb02AAG4h5nJHB+gm5gRfqUe3ZSweie6uPYp72mKNC5uUkAmIrSJRsLxFRilE9oLxkQSAAAAAElFTkSuQmCC">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="iconka" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <title>Sello</title>
 </head>
 <body> 
@@ -16,11 +17,16 @@
          <a class="a1" href="">Mijozlarga</a>
          <a class="a2" href="">Biznes  uchun</a>
          <a class="a3" href="">Продаватъ на Sello! </a>
-         <label for="language" style="margin-right: 10px;"></label>
-         <select class="suz_tanlash" id="language" name="language">
-           <option value="uz">O‘zbekcha</option>
-           <option value="ru">Русский</option>
-         </select>
+
+         <div class="dropdown">
+           <div class="dropdown-toggle">O‘zbekcha</div>
+                <div class="dropdown-menu">
+                <input type="radio" id="uz" name="lang" />
+                    <label for="uz">O‘zbekcha</label>
+                    <input type="radio" id="ru" name="lang" />
+                    <label for="ru">Ruscha</label>
+                         </div>
+               </div>
          <i id="iconka1" class="fa-solid fa-location-dot"></i>
           <a class="a4" href="">Ташкент</a>
         </div>
@@ -154,7 +160,7 @@
               <img id="img26" src="https://sello.uz/template/images/banners/produkty_sello/logistics.png" alt="">
             </div>
             <div class="main_div5">
-                 <h1>Biznes uchun</h1>
+                 <h1 class="h16">Biznes uchun</h1>
             </div>
             <div class="divv8">
                  <img id="rasm1" src="https://sello.uz/template/images/frame-1.png" alt="">
@@ -165,20 +171,20 @@
             </div>
             <div class="divv9">
                  <p class="p26">Sello Market</p>
-                 <p class="p27">Bizning merchant <br> bo'ling va 65 <br> ta BTP’dan <br> foydalaning</p>
-                 <a class="a8" href="">Посмотреть локации</a>
+                 <p class="p27">Bizning merchant   bo'ling va 65  ta BTP’dan foydalaning</p>
+                 <a class="a8" href=2">Посмотреть локации</a>
                  <img id="rasm3" src="https://sello.uz/template/images/merchant.png" alt="">
             </div>
             <div class="divv10">
                  <p class="p28">Sello Logistics</p>
-                 <p class="p29">Logistika xizmati <br> orqali mijozlarga <br> bank kartalarini <br> yetkazib berish</p>
+                 <p class="p29">Logistika xizmati orqali mijozlarga <br> bank kartalarini yetkazib berish</p>
                  <a class="a9" href="">Sello Logistics ochish</a>
                  <img id="rasm4" src="https://sello.uz/template/images/card-delivery.png" alt="">
             </div>
           <div class="main_div6">
                 <div class="divv11">
-                      <p>Hamkor bo‘lish</p>
-                </div>
+                      <p class="p1111">Hamkor bo‘lish</p>
+                    </div>
                 <div class="divv12">
                     <img id="rasm5" src="https://sello.uz/images/banner/sello-logo.svg" alt="">
                     
@@ -186,12 +192,12 @@
                     <p class="suz1">Marketpleysida <br> sotishni boshlang</p>
                     <p class="suz2">Minglab mijozlar sizning <br> mahsulotingizni kutishmoqda</p>
                      <button class="btn2">Ariza qoldirish</button>
-                </div>
-                <div class="divv13">
+                 </div>
+                 <div class="divv13">
                       <p class="suz3">Bizning hamkorlarimiz</p>
                       <p class="suz4">Biz bilan hamkorlik qilib, siz o'z do'koningiz savdosini <br> oshirishingiz mumkin.</p>
-                      <a class="a10" href="">Hammasini ko'rish</a>
-                </div>
+                 </div>
+
                 <div class="divv14">
                        <div class="as1"><img id="rasm20" src="https://static.sello.uz/unsafe/x80/https://static.sello.uz/fm/20250411/c8dca742d16bdc05fe7350aa7cc91036.png" alt=""></div>
                        <div class="as2"><img id="rasm6" src="https://static.sello.uz/unsafe/x80/https://static.sello.uz/fm/20250411/d8e66df56b036edf4773724df233dc3b.png" alt=""></div>
@@ -208,22 +214,19 @@
                        <div class="as13"><img id="rasm17" src="https://static.sello.uz/unsafe/x80/https://static.sello.uz/fm/20241015/615aa6f316ebcf19d4f559c551714cef.jpeg" alt=""></div>
                        <div class="as14"><img id="rasm18" src="https://static.sello.uz/unsafe/x80/https://static.sello.uz/fm/20240925/d72224e333867b8aa3c11fe6dcd0ad7c.png" alt=""></div>
                        <div class="as15"><img id="rasm19" src="https://static.sello.uz/unsafe/x80/https://static.sello.uz/fm/20240925/3db7d371296a74a8ce1c55f40aba33c7.webp" alt=""></div>
+                       <a class="a10" href="">Hammasini ko'rish</a>
                </div>
           </div>
           <div class="main_div7">
                  <p class="p30">Sello.uz ilovasiga o'tish uchun, skanerlang</p>
           </div>
           <div class="main_div8">                 
-               <img src="https://sello.uz/images/qr-code.gif" alt="">
+               <img class="rasm111" src="https://sello.uz/images/qr-code.gif" alt="">
           </div>
     </main>
     <footer>
        <div class="footer_div1">
             <img  id="rasm21" src="https://sello.uz/images/logo3.svg" alt="">
-            <p class="suz5">To'lov usullari</p>
-            <div class="as16"><img id="rasm22" src="https://sello.uz/images/payment/humo.svg" alt=""></div>
-            <div class="as17"><img id="rasm23" src="https://sello.uz/images/payment/uzcard.svg" alt=""></div>
-            <div class="as18"><img id="rasm24" src="https://sello.uz/images/payment/sellopay.svg" alt=""></div>
             <p class="suz6">Xizmatlar litsenziyalangan (2024-yil 18- <br>maydagi 47-sonli litsenziya) va O‘zbekiston <br> Respublikasi Markaziy bankining talablariga <br> to‘liq muvofiqdir</p>
        </div>
        <div class="footer_div2">
@@ -239,9 +242,10 @@
             <a id="a9" href="">brands</a>
             <a id="a10" href="">sellers</a>
             <h1 class="h13">Kompaniya haqida</h1>
+
             <a id="a11" href="">Biz haqimizda</a>
             <a id="a12" href="">Kontaktlar</a>
-            <a id="a13" href="">Shaxsiy ma'lumotlarni qayta <br> ishlash siyosati</a>
+            <a id="a13" href="">Shaxsiy ma'lumotlarni qayta ishlash siyosati</a>
             <a id="a14" href="">Ommaviy oferta</a>
             <a id="a15" href="">Foydalanish shartlari</a>
             <a id="a16" href="">Регламенты</a>
@@ -249,6 +253,7 @@
             <a id="a18" href="">Korporativ boshqaruv</a>
             <a id="a19" href="">Tariflar va komissiyalar</a>
             <a id="a20" href="">To'lov tashkiloti litsenziyasi</a>
+
             <h1 class="h14">Aloqa</h1>
             <p class="suz7">Bizga qo'ng'iroq qiling:</p>
             <a id="a21" href="">+998 (78) 113 09 00</a>
@@ -258,6 +263,10 @@
             <div id="dv1"><img src="https://sello.uz/images/icn/social-fb.svg" alt=""></div>
             <div id="dv2"><img src="https://sello.uz/images/icn/social-tg.svg" alt=""></div>
             <div id="dv3"><img src="https://sello.uz/images/icn/social-ins.svg" alt=""></div>
+            <p class="suz5">To'lov usullari</p>
+            <div class="as16"><img id="rasm22" src="https://sello.uz/images/payment/humo.svg" alt=""></div>
+            <div class="as17"><img id="rasm23" src="https://sello.uz/images/payment/uzcard.svg" alt=""></div>
+            <div class="as18"><img id="rasm24" src="https://sello.uz/images/payment/sellopay.svg" alt=""></div>
        </div>
        <div class="footer_div3">
             <h1 class="h15">Ilovani yuklab oling</h1>
